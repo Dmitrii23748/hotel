@@ -74,11 +74,116 @@
           </div>
           <div class="header-content__img">
             <div class="header-content__img-block"></div>
-            <img class="header-content__img-build" src="assets/images/header/build.png" alt="build">
+            <img
+              class="header-content__img-build"
+              src="assets/images/header/build.png"
+              alt="build"
+            />
           </div>
         </div>
       </div>
     </header>
+
+    <section class="availability">
+      <div class="container">
+        <div class="availability-block">
+          <h2 class="availability-block__title section-title">
+            Check Availability
+          </h2>
+          <p class="availability-block__text">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page.
+          </p>
+        </div>
+        <div class="availability-content">
+          <img
+            class="availability-content__img"
+            src="assets/images/availability/availability.png"
+            alt="img"
+          />
+          <div class="availability-content__block">
+            <form class="availability-content__block-form" action="#">
+              <label class="availability-content__block-label">
+                <span class="availability-content__block-span">CHECK-IN</span>
+                <input
+                  class="availability-content__block-input"
+                  type="text"
+                  onfocus="(this.type='date')"
+                  onblur="if(!this.value)this.type='text'"
+                  placeholder="Select a date"
+                />
+                <img
+                  class="availability-content__block-img"
+                  src="assets/images/availability/calendar.svg"
+                  alt="calendar"
+                />
+              </label>
+
+              <label class="availability-content__block-label">
+                <span class="availability-content__block-span">CHECK-OUT</span>
+                <input
+                  class="availability-content__block-input"
+                  type="text"
+                  onfocus="(this.type='date')"
+                  onblur="if(!this.value)this.type='text'"
+                  placeholder="Select a date"
+                />
+                <img
+                  class="availability-content__block-img"
+                  src="assets/images/availability/calendar.svg"
+                  alt="calendar"
+                />
+              </label>
+              <div class="availability-content__block-check">
+                <span class="availability-content__block-span">GUESTS:</span>
+                <select class="availability-content__block-select">
+                  <option
+                    class="availability-content__block-option"
+                    selected
+                    value="1 Room"
+                  >
+                    1 Room
+                  </option>
+                  <option
+                    class="availability-content__block-option"
+                    value="2 Room"
+                  >
+                    2 Room
+                  </option>
+                  <option
+                    class="availability-content__block-option"
+                    value="3 Room"
+                  >
+                    3 Room
+                  </option>
+                  <option
+                    class="availability-content__block-option"
+                    value="4 Room"
+                  >
+                    4 Room
+                  </option>
+                </select>
+                <img
+                  class="availability-content__block-arrow"
+                  src="assets/images/availability/arrow.svg"
+                  alt="arrow"
+                />
+              </div>
+
+              <button class="vailability-content__block-btn" type="submit">
+                CHECK AVAILABILITY
+              </button>
+            </form>
+          </div>
+          <img
+            class="availability-content__img-decor"
+            src="assets/images/availability/decor.svg"
+            alt=""
+            decor
+          />
+        </div>
+      </div>
+    </section>
 
     <script src="scripts/main.js"></script>
   </body>

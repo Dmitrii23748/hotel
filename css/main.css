@@ -32,6 +32,15 @@ body {
   padding: 8px 22px;
 }
 
+.section-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  color: #353637;
+}
+
 /* Header-start*/
 
 .header {
@@ -120,15 +129,15 @@ body {
 }
 
 .header-content__block-link {
-    transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .header-content__block-link:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .header-content__img {
-    position: relative;
+  position: relative;
 }
 
 .header-content__img-block {
@@ -140,9 +149,169 @@ body {
 }
 
 .header-content__img-build {
-    position: absolute;
-    bottom: -64px;
-    left: 124px;
+  position: absolute;
+  bottom: -64px;
+  left: 124px;
 }
 
 /* Header-finish */
+
+/* Check Availability start*/
+
+.availability {
+  padding-top: 120px;
+}
+.availability-block {
+  margin-bottom: 42px;
+}
+
+.availability-block__title {
+  margin-bottom: 16px;
+}
+
+.availability-block__text {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #959595;
+  max-width: 452px;
+  margin: 0 auto;
+}
+
+.availability-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 523px;
+}
+
+.availability-content__img-decor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 74px;
+  height: 74px;
+}
+
+.availability-content__img {
+  max-width: 638px;
+  width: 100%;
+}
+
+.availability-content__block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6fcfa;
+}
+
+.availability-content__block-form {
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.availability-content__block-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.availability-content__block-img {
+  position: absolute;
+  bottom: 16px;
+  right: 22px;
+  width: 22px;
+  height: 21px;
+}
+
+.availability-content__block-span {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #222426;
+  margin-bottom: 6px;
+}
+
+.availability-content__block-check {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.availability-content__block-arrow {
+  position: absolute;
+  bottom: 17px;
+  right: 22px;
+  width: 22px;
+  height: 12px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.availability-content__block-input {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #636461;
+  border: 2px solid #ababab;
+  border-radius: 2px;
+  padding: 7px 15px 7px 14px;
+  height: 50px;
+}
+
+.availability-content__block-option,
+.availability-content__block-select {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #a4a4a4;
+  cursor: pointer;
+  padding: 7px 15px 7px 14px;
+}
+
+.availability-content__block-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  z-index: 2;
+  height: 50px;
+  border: 2px solid #ababab;
+  border-radius: 2px;
+}
+
+.vailability-content__block-btn {
+  border: 2px solid #596b86;
+  border-radius: 2px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #222426;
+  text-transform: uppercase;
+  padding: 14px 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+/* Check Availability finish*/
