@@ -260,7 +260,6 @@ body {
   cursor: pointer;
 }
 
-
 .availability-content__block-input {
   font-weight: 400;
   font-size: 16px;
@@ -315,3 +314,245 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 /* Check Availability finish*/
+
+/* POPULER ROOM start */
+
+.populer {
+  padding-top: 118px;
+}
+
+.populer-block {
+  margin-bottom: 46px;
+}
+
+.populer-block__title {
+  margin-bottom: 20px;
+}
+
+.populer-block__text {
+  font-family: "Average Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #959595;
+  max-width: 452px;
+  margin: 0 auto;
+}
+
+.populer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.populer__item-block {
+  padding: 24px 22px;
+  border: 1px solid #596b86;
+}
+
+.populer__item-block-title {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #131313;
+  margin-bottom: 16px;
+}
+
+.populer__icon-list {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 8px;
+}
+
+.populer__icon-item {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.populer__icon-text {
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #727272;
+}
+
+.populer__block-price-number {
+  font-weight: 600;
+  font-size: 30px;
+  color: #384d6c;
+}
+
+.populer__block-price-text {
+  font-size: 18px;
+}
+
+/* POPULER ROOM finish */
+
+/* HOTEL start */
+
+.hotel {
+  padding-top: 123px;
+}
+
+.hotel-block__text {
+  font-family: "Average Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.26em;
+  color: #597193;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.hotel-block {
+  margin-bottom: 44px;
+}
+
+.hotel__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 118px;
+}
+
+.hotel__item {
+  border: 1px solid #596b86;
+  padding: 20px 30px;
+}
+
+.hotel__item-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.hotel__item-title {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  color: #131313;
+}
+
+.hotel__item-text {
+  font-family: "Average Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #9b9b9b;
+}
+
+.hotel-number__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 914px;
+  margin: 0 auto;
+}
+
+.hotel-number__item {
+  position: relative;
+  max-width: 241px;
+  text-align: center;
+}
+
+.hotel-number__item:nth-child(1)::before,
+.hotel-number__item:nth-child(2)::before,
+.hotel-number__item:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -100px;
+  height: 54px;
+  width: 2px;
+  background: #c4c4c4;
+}
+
+.hotel-number__item-num {
+  font-weight: 700;
+  font-size: 50px;
+  color: #596b86;
+  margin-bottom: 28px;
+}
+
+.hotel-number__item-text {
+  font-family: "Average Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #939393;
+}
+
+/* HOTEL finish */
+
+/* DISCOVER start */
+.discover {
+  padding-top: 126px;
+}
+
+.discover__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.discover-left {
+  background: #f6fcfa;
+  height: 523px;
+  padding: 85px 62px;
+}
+
+.discover-left__title {
+  font-weight: 400;
+  font-size: 40px;
+  color: #353637;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.discover-left__text {
+  font-family: "Average Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #686868;
+}
+
+.discover-left__text-top {
+  margin-bottom: 30px;
+}
+
+.discover-left__text-bottom {
+  margin-bottom: 34px;
+}
+
+.discover-right {
+  position: relative;
+}
+
+.discover-right__img-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.discover-right__img-play {
+  transition: all .3s ease-in;
+}
+
+.discover-right__img-play:hover {
+  transform: scale(1.1);
+}
+
+/* DISCOVER finish */
